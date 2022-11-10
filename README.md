@@ -8,3 +8,6 @@ Features to narrow down on include:
  - Height
  - Skin tone
  - Male/Female
+
+# Test
+I added this section to demonstrate committing a change in my README file.
