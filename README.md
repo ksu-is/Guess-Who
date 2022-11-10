@@ -5,8 +5,6 @@ The Guess Who program will allow you to participate in a guessing-game. Here you
 Features to narrow down on include:
  - Hair color
  - Eye color
- - Skin tone
- - Male/Female
  - What they're wearing (i.e. glasses, hat)
 
 # Test
