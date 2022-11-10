@@ -8,6 +8,5 @@
 - [ ] Continue testing until errors are resolved
 - [ ] Create visual modifications to make the process more appealing
 - [ ] Review and finalize code
-- [ ] 
 - [ ] Ensure all changes have been committed to the repository
 
