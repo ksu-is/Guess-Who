@@ -1,7 +1,7 @@
 - [x] Create repository
 - [x] Create ReadMe
 - [x] Create road map
-- [ ] Research and observe related repositories and analyze the coding
+- [x] Research and observe related repositories and analyze the coding
 - [ ] Create base code
 - [ ] Test and troubleshoot 
 - [ ] Tweak coding as errors are found
