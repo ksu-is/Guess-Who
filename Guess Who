@@ -1,0 +1,197 @@
+import random 
+#for now I will use "random", as the pictures will be chosen later in the project.
+
+
+#here I am putting together a base totalling 30 characters.
+charDict1 = {
+    'name' : "Sofia",
+    'gender' : "female",
+    'eye color' : "brown",
+    'hair color' : "brown",
+    'hat' : "no",
+    'glasses' : "no"}
+    
+charDict2 = {
+    'name' : "Al",
+    'gender' : "male",
+    'eye color' : "brown",
+    'hair color' : "white",
+    'hat' : "no",
+    'glasses' : "yes"}
+
+charDict3 = {
+    'name' : "Amy",
+    'gender' : "female",
+    'eye color' : "brown",
+    'hair color' : "black",
+    'hat' : "no",
+    'glasses' : "yes"}
+
+charDict4 = {
+    'name' : "Ben",
+    'gender' : "male",
+    'eye color' : "brown",
+    'hair color' : "brown",
+    'hat' : "no",
+    'glasses' : "yes"}
+
+charDict5 = {
+    'name' : "Carmen",
+    'gender' : "female",
+    'eye color' : "brown",
+    'hair color' : "white",
+    'hat' : "no",
+    'glasses' : "no"}
+
+charDict6 = {
+    'name' : "Daniel",
+    'gender' : "male",
+    'eye color' : "green",
+    'hair color' : "red",
+    'hat' : "no",
+    'glasses' : "no"}
+
+charDict7 = {
+    'name' : "David",
+    'gender' : "male",
+    'eye color' : "brown",
+    'hair color' : "blonde",
+    'hat' : "yes",
+    'glasses' : "no"}
+
+charDict8 = {
+    'name' : "Emma",
+    'gender' : "female",
+    'eye color' : "brown",
+    'hair color' : "red",
+    'hat' : "no",
+    'glasses' : "no"}
+
+charDict9 = {
+    'name' : "Eric",
+    'gender' : "male",
+    'eye color' : "blue",
+    'hair color' : "black",
+    'hat' : "no",
+    'glasses' : "no"}
+
+charDict10 = {
+    'name' : "Farah",
+    'gender' : "female",
+    'eye color' : "blue",
+    'hair color' : "black",
+    'hat' : "no",
+    'glasses' : "no"}
+
+charDict11 = {
+    'name' : "Gabe",
+    'gender' : "male",
+    'eye color' : "brown",
+    'hair color' : "black",
+    'hat' : "no",
+    'glasses' : "no"}
+    
+charDict12 = {
+    'name' : "Joe",
+    'gender' : "male",
+    'eye color' : "brown",
+    'hair color' : "bald",
+    'hat' : "no",
+    'glasses' : "yes"}
+
+charDict13 = {
+    'name' : "Jordan",
+    'gender' : "male",
+    'eye color' : "brown",
+    'hair color' : "brown",
+    'hat' : "no",
+    'glasses' : "no"}
+
+charDict14 = {
+    'name' : "Katie",
+    'gender' : "female",
+    'eye color' : "blue",
+    'hair color' : "blonde",
+    'hat' : "yes",
+    'glasses' : "no"}
+
+charDict15 = {
+    'name' : "Laura",
+    'gender' : "female",
+    'eye color' : "green",
+    'hair color' : "black",
+    'hat' : "no",
+    'glasses' : "no"}
+
+charDict16 = {
+    'name' : "Leo",
+    'gender' : "male",
+    'eye color' : "brown",
+    'hair color' : "white",
+    'hat' : "no",
+    'glasses' : "no"}
+
+charDict17 = {
+    'name' : "Lily",
+    'gender' : "female",
+    'eye color' : "green",
+    'hair color' : "brown",
+    'hat' : "yes",
+    'glasses' : "yes"}
+
+charDict18 = {
+    'name' : "Liz",
+    'gender' : "female",
+    'eye color' : "blue",
+    'hair color' : "white",
+    'hat' : "no",
+    'glasses' : "yes"}
+
+charDict19 = {
+    'name' : "Mia",
+    'gender' : "female",
+    'eye color' : "brown",
+    'hair color' : "black",
+    'hat' : "no",
+    'glasses' : "no"}
+
+charDict20 = {
+    'name' : "Mike",
+    'gender' : "male",
+    'eye color' : "brown",
+    'hair color' : "black",
+    'hat' : "yes",
+    'glasses' : "no"}
+
+charDict21 = {
+    'name' : "Nick",
+    'gender' : "male",
+    'eye color' : "brown",
+    'hair color' : "blonde",
+    'hat' : "no",
+    'glasses' : "no"}
+    
+charDict22 = {
+    'name' : "Olivia",
+    'gender' : "female",
+    'eye color' : "brown",
+    'hair color' : "brown",
+    'hat' : "no",
+    'glasses' : "no"}
+
+charDict23 = {
+    'name' : "Rachel",
+    'gender' : "female",
+    'eye color' : "blue",
+    'hair color' : "brown",
+    'hat' : "no",
+    'glasses' : "yes"}
+
+charDict24 = {
+    'name' : "Sam",
+    'gender' : "male",
+    'eye color' : "green",
+    'hair color' : "black",
+    'hat' : "yes",
+    'glasses' : "no"}
+
