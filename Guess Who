@@ -1,8 +1,9 @@
 import random 
-#for now I will use "random", as the pictures will be chosen later in the project.
+# for now I will use "random", as the pictures will be chosen later in the project.
 
 
-#here I am putting together a base totalling 30 characters.
+# here I am putting together a base totalling 24 characters.
+
 charDict1 = {
     'name' : "Sofia",
     'gender' : "female",
@@ -196,13 +197,13 @@ charDict24 = {
     'glasses' : "no"}
 
 
-#here is the random character generator
+# here is the random character generator
 charList = [charDict1, charDict2, charDict3, charDict4, charDict5, charDict6, charDict7, charDict8, charDict9, charDict10, charDict11, charDict12, charDict13, charDict14, charDict15, charDict16, charDict17, charDict18, charDict19, charDict20, charDict21, charDict22, charDict23, charDict24]
 gameChosenChar = charList[random.randint(0,23)]
-print(gameChosenChar)
+# print(gameChosenChar)
+# I've changed the above function to a comment now that I've run the code and saw that it works.
 
-
-#here I am entering a function to create a list of all the characters.
+# here I am entering a function to create a list of all the characters.
 def print_all_chars(list_of_characters):
     for charDict in list_of_characters:
         charName = ''
@@ -215,10 +216,65 @@ def print_all_chars(list_of_characters):
         print(charName)
         print(printList)
 
-print_all_chars(charList)
+# I ran this part of the code and it was a success
 
-#while userCommand != 'quit' and gameStatus != 'over':
+
+print("Welcome to Guess Who. The object of the game is to guess who the randomly chosen character is. ")
+print("Chose from the following: (list), (gender), (eye color), (hair color), (hat), (glasses), or (guess who!) ")
+# here is the beginning of the code that will 
+
+
+userCommand = ''
+gameStatus = ''
+userQuestionCount = 0
+
+while userCommand != 'quit' and gameStatus != 'over':
     
+    userCommand = input("What would you like to ask first? (list of characters, gender, eye color, hair color, hat, or glasses) ")
     
-    
-#    pass
+    if userQuestionCount < 3:
+        if userCommand == 'gender': 
+            print(gameChosenChar['gender'])
+            userQuestionCount += 1
+        
+        if userCommand == 'eye color': 
+            print(gameChosenChar['eye color'])
+            userQuestionCount += 1
+       
+        if userCommand == 'hair color': 
+            print(gameChosenChar['hair color'])
+            userQuestionCount += 1
+        
+        if userCommand == 'hat': 
+            print(gameChosenChar['hat'])
+            userQuestionCount += 1
+        
+        if userCommand == 'glasses': 
+            print(gameChosenChar['glasses'])
+            userQuestionCount += 1
+
+        if userCommand == 'list of characters':
+            print_all_chars(charList)
+
+        if userCommand == 'guess':
+            if userGuess == gameChosenChar['name']:
+                gameStatus = 'over'
+                print("Correct! You win! ")
+            else:
+                gameStatus = 'over'
+                print("That is incorrect. Try again next time! ")
+        else:
+            print("You did not enter a valid command, please try again. ")
+
+
+    else:
+        userGuess = input("You have reached the maximum # of questions! Which character would you like to guess? ")
+
+        if userGuess == gameChosenChar['name']:
+            gameStatus = 'over'
+            print("Correct! You win! ")
+
+        else:
+            gameStatus = 'over'
+            print("That is incorrect. Try again next time! ")
+# I have put together the base code and plan to update and deepen the code next. 
