@@ -194,3 +194,31 @@ charDict24 = {
     'hair color' : "black",
     'hat' : "yes",
     'glasses' : "no"}
+
+
+#here is the random character generator
+charList = [charDict1, charDict2, charDict3, charDict4, charDict5, charDict6, charDict7, charDict8, charDict9, charDict10, charDict11, charDict12, charDict13, charDict14, charDict15, charDict16, charDict17, charDict18, charDict19, charDict20, charDict21, charDict22, charDict23, charDict24]
+gameChosenChar = charList[random.randint(0,23)]
+print(gameChosenChar)
+
+
+#here I am entering a function to create a list of all the characters.
+def print_all_chars(list_of_characters):
+    for charDict in list_of_characters:
+        charName = ''
+        printList = []
+        for item in charDict:
+            if item == 'name':
+                charName = charDict[item]
+            else: 
+                printList.append(charDict[item])
+        print(charName)
+        print(printList)
+
+print_all_chars(charList)
+
+#while userCommand != 'quit' and gameStatus != 'over':
+    
+    
+    
+#    pass
