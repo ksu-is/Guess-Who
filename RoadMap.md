@@ -2,7 +2,7 @@
 - [x] Create ReadMe
 - [x] Create road map
 - [x] Research and observe related repositories and analyze the coding
-- [ ] Put together pictures/graphics for game
+- [x] Put together pictures/graphics for game
 - [ ] Create base code
 - [ ] Test and troubleshoot 
 - [ ] Tweak coding as errors are found
