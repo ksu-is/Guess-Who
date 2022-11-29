@@ -1,12 +1,9 @@
-# Guess Who
+# Guess Who!
 
-The Guess Who program will allow you to participate in a guessing-game. Here you will guess the identity of the randomly chosen character. You will be given 8 chances to narrow down your potential person. 
+The Guess Who program will allow you to participate in a guessing-game. Here you will guess the identity of the randomly chosen character. You will be given the allowance of 20 questions to narrow down your potential person. 
 
 Features to narrow down on include:
- - Gender
  - Hair color
  - Eye color
- - What they're wearing (i.e. glasses, hat)
+ - What they're wearing (i.e. glasses, hat, shirt color)
 
-# Test
-I added this section to demonstrate committing a change in my README file.

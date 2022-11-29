@@ -2,12 +2,11 @@
 - [x] Create ReadMe
 - [x] Create road map
 - [x] Research and observe related repositories and analyze the coding
-- [ ] Put together pictures/graphics for game
 - [x] Create base code
 - [x] Test and troubleshoot 
-- [ ] Tweak coding as errors are found
-- [ ] Continue testing & troubleshooting until errors are resolved
-- [ ] Create visual modifications to make the process more appealing
+- [x] Tweak coding as errors are found
+- [x] Continue testing & troubleshooting until errors are resolved
+- [x] Create visual modifications to make the process more appealing
 - [ ] Review and finalize code
 - [ ] Ensure all changes have been committed to the repository
 
