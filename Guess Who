@@ -237,26 +237,26 @@ while userCommand != 'quit' and gameStatus != 'over':
             print(gameChosenChar['gender'])
             userQuestionCount += 1
         
-        if userCommand == 'eye color': 
+        elif userCommand == 'eye color': 
             print(gameChosenChar['eye color'])
             userQuestionCount += 1
        
-        if userCommand == 'hair color': 
+        elif userCommand == 'hair color': 
             print(gameChosenChar['hair color'])
             userQuestionCount += 1
         
-        if userCommand == 'hat': 
+        elif userCommand == 'hat': 
             print(gameChosenChar['hat'])
             userQuestionCount += 1
         
-        if userCommand == 'glasses': 
+        elif userCommand == 'glasses': 
             print(gameChosenChar['glasses'])
             userQuestionCount += 1
 
-        if userCommand == 'list of characters':
+        elif userCommand == 'list of characters':
             print_all_chars(charList)
 
-        if userCommand == 'guess':
+        elif userCommand == 'guess':
             if userGuess == gameChosenChar['name']:
                 gameStatus = 'over'
                 print("Correct! You win! ")
