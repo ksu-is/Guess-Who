@@ -268,7 +268,7 @@ if __name__ == '__main__':
             print(' > You scored ' + str(points) + ' points in this game. ' +
                   'Thanks for playing!\n')
     else:
-        print('You ended the game before it began. You chicken...\n')
+        print('You ended the game before it began. How lame...\n')
 
     print('Note: ' + CHARACTER_USER + ' has been deleted.\n' + '#' * 100)
     os.remove(CHARACTER_USER)
