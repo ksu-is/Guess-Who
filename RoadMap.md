@@ -7,6 +7,6 @@
 - [x] Tweak coding as errors are found
 - [x] Continue testing & troubleshooting until errors are resolved
 - [x] Create visual modifications to make the process more appealing
-- [ ] Review and finalize code
-- [ ] Ensure all changes have been committed to the repository
+- [x] Review and finalize code
+- [x] Ensure all changes have been committed to the repository
 
