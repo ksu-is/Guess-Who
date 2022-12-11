@@ -8,7 +8,7 @@ import os
 CHARACTER_USER = 'guess_who_characters.txt'
 CHARACTER_OFFICIAL = 'official_characters.txt'
 
-QUESTIONS = 20
+QUESTIONS = 10
 POINTS_PER_QUESTION = 100
 POINTS_PER_TRAIT = 25
 POINTS_FOR_CORRECT = 1000
